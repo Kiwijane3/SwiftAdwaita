@@ -1,0 +1,45 @@
+#include <libadwaita-1/adwaita.h>
+
+
+struct _AdwTimedAnimation {};
+struct _AdwWindowTitle {};
+struct _AdwSwipeTracker {};
+struct _AdwSwipeable {};
+struct _AdwSqueezer {};
+struct _AdwCarouselIndicatorLines {};
+struct _AdwClampScrollable {};
+struct _AdwStyleManager {};
+struct _AdwAnimationClass {};
+struct _AdwLeaflet {};
+struct _AdwToast {};
+struct _AdwAnimationTarget {};
+struct _AdwSplitButton {};
+struct _AdwCarousel {};
+struct _AdwLeafletPage {};
+struct _AdwTimedAnimationClass {};
+struct _AdwTabView {};
+struct _AdwStatusPage {};
+struct _AdwSqueezerPage {};
+struct _AdwSpringAnimation {};
+struct _AdwClampLayout {};
+struct _AdwViewStack {};
+struct _AdwViewSwitcherTitle {};
+struct _AdwSpringParams {};
+struct _AdwViewStackPage {};
+struct _AdwAnimationTargetClass {};
+struct _AdwTabBar {};
+struct _AdwHeaderBar {};
+struct _AdwEnumListItem {};
+struct _AdwViewSwitcherBar {};
+struct _AdwAvatar {};
+struct _AdwViewSwitcher {};
+struct _AdwButtonContent {};
+struct _AdwSpringAnimationClass {};
+struct _AdwEnumListModel {};
+struct _AdwTabPage {};
+struct _AdwCarouselIndicatorDots {};
+struct _AdwClamp {};
+struct _AdwCallbackAnimationTarget {};
+struct _AdwToastOverlay {};
+struct _AdwCallbackAnimationTargetClass {};
+struct _AdwFlap {};

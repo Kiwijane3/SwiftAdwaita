@@ -1,0 +1,8 @@
+module CAdwaita [system] {
+	header "adwaita_bridging.h"
+	
+	link "libadwaita-1"
+	
+	export *
+	
+}
