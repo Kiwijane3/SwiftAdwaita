@@ -1,7 +1,7 @@
 module CAdwaita [system] {
 	header "adwaita_bridging.h"
 	
-	link "libadwaita-1"
+	link "adwaita-1"
 	link "gtk-4"
 	link "pangocairo-1.0"
 	link "pangoft2-1.0"

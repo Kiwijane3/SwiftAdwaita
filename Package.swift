@@ -10,6 +10,7 @@ let package = Package(
         .library(
             name: "Adwaita",
             targets: ["Adwaita"]),
+        .executable(name: "Demo", targets: ["Demo"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -36,6 +37,9 @@ let package = Package(
             plugins: [
             	.plugin(name: "gir2swift-plugin", package: "gir2swift")
             ]),
+        .executableTarget(name: "Demo", dependencies: [
+        	"Adwaita"
+        ]),
         .testTarget(
             name: "AdwaitaTests",
             dependencies: ["Adwaita"]),
