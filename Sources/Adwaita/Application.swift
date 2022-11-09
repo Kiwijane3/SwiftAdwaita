@@ -1,2 +1,2 @@
-import Gtk
+import CGtk
 import Adwaita

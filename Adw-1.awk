@@ -25,6 +25,9 @@ BEGIN { comment = 0; class = 0; overr = 0; }
 /Creates a new `GtkRecentAction`/ { ostock = 1 }
 /Creates a new dialog box/ { if (class) if (class) overr = 1 }
 /Create a special-purpose sorter/ { if (class) if (class) overr = 1 }
+/Creates a new `AdwEntryRow`/ { if (class) overr = 1 }
+/Creates a new `AdwPasswordEntryRow`/ { if (class) overr = 1 }
+/Creates a new `AdwAboutWindow`/ { if (class) overr = 1 }
 /^    @inlinable public init[<(]/ {
 	if (overr) {
 		gsub("public", "override public")

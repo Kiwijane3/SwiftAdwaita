@@ -43,3 +43,7 @@ struct _AdwCallbackAnimationTarget {};
 struct _AdwToastOverlay {};
 struct _AdwCallbackAnimationTargetClass {};
 struct _AdwFlap {};
+struct _AdwPasswordEntryRow {};
+struct _AdwPropertyAnimationTargetClass {};
+struct _AdwPropertyAnimationTarget {};
+struct _AdwAboutWindow {};
